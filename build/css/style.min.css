@@ -716,6 +716,7 @@ a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  width: 100%;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -770,6 +771,9 @@ a {
       margin-top: -4px;
       margin-bottom: 20px; }
 .chat__img {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 45px;
+            flex: 0 0 45px;
     -webkit-clip-path: polygon(50% 0%, 98% 38%, 82% 95%, 18% 95%, 2% 38%);
             clip-path: polygon(50% 0%, 98% 38%, 82% 95%, 18% 95%, 2% 38%); }
 .chat__dialog {
