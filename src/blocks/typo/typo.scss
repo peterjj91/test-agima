@@ -1,0 +1,42 @@
+p {
+  margin: 0;
+}
+
+.input {
+  background: #FFFFFF;
+  border: 1px solid #DBDBDB;
+  box-sizing: border-box;
+  border-radius: 4px;
+  padding: 10px;
+  outline: none;
+  font-size: 14px;
+  line-height: 19px;
+  color: #696969;
+
+  &::-webkit-input-placeholder {
+    color: #696969;
+  }
+  &::-moz-placeholder {
+    color: #696969;
+  }
+  &:-ms-input-placeholder {
+    color: #696969;
+  }
+  &:-moz-placeholder {
+    color: #696969;
+  }
+}
+
+.btn {
+  font-family: $proximaNova-bold;
+  background: #0F54B9;
+  box-shadow: 0px 4px 6px rgba(15, 84, 185, 0.3);
+  border-radius: 21px;
+  border: none;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  color: #FFFFFF;
+  padding: 8px 32px;
+  outline: none;
+}
