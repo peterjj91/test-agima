@@ -1,20 +1,44 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
-
-# dependencies
-/node_modules
-/.pnp
-.pnp.js
-
-# testing
-/coverage
-
-# misc
+/web.config
+/*.log
+/*.sql
+/*.txt
+!/robots.txt
+/sitemap*.xml
+/*.dt
+/*.tar.gz
+/*.gz
+/*.tar
+/*.bak
+/*.old
+/*~
+/composer.*
+/bitrix/*
+!/bitrix/components
+!/bitrix/modules
+/local/templates/diabetoved/faviconset_old/
+/bitrix/php_interface/
+/bitrix/.settings.php
+/bitrix/templates/
+/upload
+/local/ajax/cache
+.idea
+.idea/
+bower_components
+node_modules
 .DS_Store
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
-
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
+png
+Thumbs.db
+__MACOSX
+/test
+### VisualStudioCode ###
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history
+15d0c33f13cd5ba0e955db4854ff5eee
+/bitrix/php_interface/dbconn.php
+/.htaccess
+/bitbucket-pipelines.yml
+tpcmlzfqltvcwzds.php
